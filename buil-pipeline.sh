@@ -1,8 +1,7 @@
 pipeline { 
     agent any 
     parameters { 
-        string(name: 'myParameter', defaultValue: 'myVal', description: 'Enter 
-Parameter value?') 
+        string(name: 'myParameter', defaultValue: 'myVal', description: 'Enter Parameter value?') 
     } 
     stages { 
         stage('Build') { 
